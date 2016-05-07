@@ -1,6 +1,9 @@
 
 # tap repositories and their packages
 
+tap argon/mas
+brew mas
+
 tap caskroom/cask
 cask alfred
 cask appcleaner
@@ -20,13 +23,11 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask handbrake
-cask iterm2
 cask java
 cask karabiner
 cask keycast
 cask kindle
 cask licecap
-cask macs-fan-control
 cask mactex
 cask mysqlworkbench
 cask openemu
@@ -37,8 +38,6 @@ cask td-agent
 cask techstoreclub-simple-comic
 cask the-unarchiver
 cask timemachineeditor
-cask tinyumbrella
-cask toggldesktop
 cask vagrant
 cask virtualbox
 cask vlc
@@ -58,6 +57,7 @@ brew bdw-gc
 brew binutils
 brew bison
 brew boost
+brew brew-gem
 brew cairo
 brew cgal
 brew cmake
@@ -74,6 +74,7 @@ brew dpkg
 brew elasticsearch
 brew emacs --with-gnutls --with-imagemagick --with-librsvg --with-mailutils --with-cocoa --with-ctags
 brew embulk
+brew erlang
 brew faac
 brew fasd
 brew fdk-aac
@@ -83,7 +84,6 @@ brew fontconfig
 brew fontforge
 brew freetype
 brew freexl
-brew fzf
 brew gauche
 brew gcc
 brew gdb
@@ -147,7 +147,6 @@ brew libvo-aacenc
 brew libxml2
 brew libzip
 brew little-cms2
-brew llvm --with-clang --with-rtti --universal
 brew lua
 brew luajit
 brew lv
@@ -161,10 +160,11 @@ brew memcached
 brew mercurial
 brew mobile-shell
 brew multirust
+brew mysql
 brew nettle
 brew nginx
 brew nkf
-brew node
+brew nodebrew
 brew oniguruma
 brew openjpeg
 brew openssl --universal
@@ -190,6 +190,7 @@ brew qt5
 brew rbenv-gemset
 brew rbenv
 brew readline
+brew reattach-to-user-namespace
 brew redis
 brew rmtrash
 brew roswell
@@ -211,6 +212,7 @@ brew ttfautohint
 brew w3m
 brew webp
 brew wget
+brew wxmac
 brew x264
 brew x265
 brew xvid
@@ -218,6 +220,7 @@ brew xz
 brew yasm
 brew z
 brew zeromq
+brew zplug
 brew zsh-completions
 brew zsh
 
@@ -229,7 +232,6 @@ brew tcpdump
 tap homebrew/science
 
 tap homebrew/versions
-brew mysql56
 
 tap minodisk/qiitactl
 brew qiitactl
@@ -256,7 +258,6 @@ brew girara
 brew zathura
 
 # Other Homebrew packages
-brew docker
 brew elixir
 brew giflib
 brew glib
@@ -279,16 +280,10 @@ brew zathura-pdf-poppler
 brew zlib
 
 # App Store applications
-appstore Disk Diag
-appstore Keynote
-appstore Kobito
-appstore LINE
-appstore Memory Clean
-appstore MiniUsage
-appstore Numbers
-appstore Pages
-appstore PDFOutliner
-appstore Pocket
-appstore Veertu
-appstore Wake Up Time Pro
-appstore Xcode
+appstore 409183694 Keynote
+appstore 896624060 Kobito
+appstore 539883307 LINE
+appstore 451444120 Memory Clean
+appstore 409203825 Numbers
+appstore 409201541 Pages
+appstore 516371849 Wake Up Time Pro
