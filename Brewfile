@@ -5,19 +5,12 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
-cask alfred
 cask appcleaner
 cask aquaskk
 cask bartender
 cask bettertouchtool
-cask caffeine
-cask calibre
-cask chefdk
 cask dash
-cask dockertoolbox
 cask dropbox
-cask evernote
-cask firefox
 cask flux
 cask google-chrome
 cask google-drive
@@ -25,19 +18,15 @@ cask google-japanese-ime
 cask handbrake
 cask java
 cask karabiner
-cask keycast
 cask kindle
 cask licecap
 cask mactex
-cask mysqlworkbench
-cask openemu
-cask seil
 cask sequel-pro
 cask slack
-cask td-agent
 cask techstoreclub-simple-comic
 cask the-unarchiver
 cask timemachineeditor
+cask transmission
 cask vagrant
 cask virtualbox
 cask vlc
@@ -68,13 +57,13 @@ brew csshx
 brew ctags
 brew curl
 brew czmq
-brew d-bus
 brew docbook
 brew dpkg
 brew elasticsearch
-brew emacs --with-gnutls --with-imagemagick --with-librsvg --with-mailutils --with-cocoa --with-ctags
+brew elixir
 brew embulk
 brew erlang
+brew exiftool
 brew faac
 brew fasd
 brew fdk-aac
@@ -86,21 +75,24 @@ brew freetype
 brew freexl
 brew gauche
 brew gcc
-brew gdb
 brew gdal
+brew gdb
 brew gdbm --universal
 brew gdk-pixbuf
 brew geos
 brew gettext
 brew gflags
 brew gibo
+brew giflib
 brew git
-brew global --with-pygments --with-ctags
+brew glib
+brew global --with-ctags --with-pygments --with-sqlite3
 brew glog
 brew gmp
 brew gnome-icon-theme
 brew gnu-getopt
 brew gnu-sed
+brew gnu-tar
 brew gnupg
 brew gnutls
 brew go
@@ -112,13 +104,17 @@ brew gtk+
 brew gtk+3
 brew guile
 brew harfbuzz
+brew haskell-stack
 brew hicolor-icon-theme
+brew httpstat
+brew hub
 brew icu4c
 brew iftop
 brew imagemagick
 brew isl
 brew jless
 brew jpeg
+brew jq
 brew json-c
 brew jvmtop
 brew lame
@@ -145,21 +141,25 @@ brew libtool
 brew libunistring
 brew libvo-aacenc
 brew libxml2
+brew libzdb
 brew libzip
 brew little-cms2
 brew lua
 brew luajit
 brew lv
 brew lz4
+brew lzlib
 brew macvim --with-override-system-vim --with-luajit --with-lua --with-python3
 brew mailutils
 brew makedepend
 brew markdown
+brew mecab
 brew mecab-ipadic
 brew memcached
 brew mercurial
 brew mobile-shell
-brew multirust
+brew mpfr
+brew mplayer
 brew mysql
 brew nettle
 brew nginx
@@ -169,6 +169,7 @@ brew oniguruma
 brew openjpeg
 brew openssl --universal
 brew ossp-uuid
+brew packer
 brew pandoc
 brew pango
 brew pcre
@@ -179,20 +180,24 @@ brew phantomjs
 brew pixman
 brew pkg-config
 brew plenv
+brew poppler
 brew postgis
 brew postgresql
 brew proj
 brew protobuf
+brew pstree
+brew pwgen
 brew pyenv
 brew python
 brew python3
 brew qt5
+brew rbenv --HEAD
 brew rbenv-gemset
-brew rbenv
 brew readline
 brew reattach-to-user-namespace
 brew redis
 brew rmtrash
+brew rocksdb
 brew roswell
 brew rtmpdump
 brew ruby-build
@@ -203,13 +208,18 @@ brew snappy
 brew source-highlight
 brew sqlite --universal
 brew sshrc
+brew terminal-notifier
 brew texi2html
 brew texinfo
+brew the_silver_searcher
 brew tig
+brew tldr
 brew tmux
 brew tree
 brew ttfautohint
+brew typesafe-activator
 brew w3m
+brew watchman
 brew webp
 brew wget
 brew wxmac
@@ -221,15 +231,20 @@ brew yasm
 brew z
 brew zeromq
 brew zplug
-brew zsh-completions
 brew zsh
+brew zsh-completions
+
+tap homebrew/devel-only
+brew elm-format --HEAD
 
 tap homebrew/dupes
 brew grep --with-default-names
 brew groff
 brew tcpdump
+brew zlib
 
 tap homebrew/science
+brew r
 
 tap homebrew/versions
 
@@ -256,28 +271,13 @@ tap yuya373/macvim-yuya373
 tap zegervdv/zathura
 brew girara
 brew zathura
+brew zathura-pdf-poppler
 
 # Other Homebrew packages
-brew elixir
-brew giflib
-brew glib
-brew gnu-tar
-brew hub
-brew libzdb
-brew lzlib
-brew mecab
-brew mpfr
-brew mplayer
-brew packer
-brew poppler
-brew r
-brew rocksdb
-brew terminal-notifier
-brew the_silver_searcher
-brew tldr
-brew typesafe-activator
-brew zathura-pdf-poppler
-brew zlib
+brew d-bus
+
+# Cask applications
+cask dockertoolbox
 
 # App Store applications
 appstore 409183694 Keynote
