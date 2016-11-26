@@ -9,6 +9,7 @@ cask appcleaner
 cask aquaskk
 cask bartender
 cask bettertouchtool
+cask bitbar
 cask dash
 cask dropbox
 cask flux
@@ -16,11 +17,13 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask handbrake
+cask iterm2
 cask java
 cask karabiner
 cask kindle
 cask licecap
 cask mactex
+cask screencast
 cask sequel-pro
 cask slack
 cask techstoreclub-simple-comic
@@ -112,7 +115,6 @@ brew icu4c
 brew iftop
 brew imagemagick
 brew isl
-brew jless
 brew jpeg
 brew jq
 brew json-c
@@ -158,6 +160,7 @@ brew mecab-ipadic
 brew memcached
 brew mercurial
 brew mobile-shell
+brew monit
 brew mpfr
 brew mplayer
 brew mysql
@@ -194,7 +197,7 @@ brew qt5
 brew rbenv --HEAD
 brew rbenv-gemset
 brew readline
-brew reattach-to-user-namespace
+brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
 brew redis
 brew rmtrash
 brew rocksdb
@@ -275,6 +278,7 @@ brew zathura-pdf-poppler
 
 # Other Homebrew packages
 brew d-bus
+brew jless
 
 # Cask applications
 cask dockertoolbox
