@@ -7,7 +7,6 @@ brew mas
 tap caskroom/cask
 cask appcleaner
 cask aquaskk
-cask bartender
 cask bettertouchtool
 cask bitbar
 cask dash
@@ -17,27 +16,17 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask handbrake
-cask iterm2
 cask java
 cask karabiner
 cask kindle
 cask licecap
-cask mactex
-cask screencast
-cask sequel-pro
 cask slack
 cask the-unarchiver
 cask timemachineeditor
 cask transmission
-cask vagrant
-cask virtualbox
 cask vlc
-cask vox
-cask xquartz
 
 tap homebrew/core
-brew apache-spark
-brew asciidoc
 brew atk
 brew autoconf
 brew autogen
@@ -61,14 +50,10 @@ brew curl
 brew czmq
 brew docbook
 brew dpkg
-brew elasticsearch
-brew elixir
 brew elm-format --HEAD
 brew embulk
-brew erlang
 brew exiftool
 brew faac
-brew fasd
 brew fdk-aac
 brew ffmpeg --with-faac --with-fdk-aac --with-rtmpdump --with-x265 --with-webp --with-tools --with-faac --with-fdk-aac --with-rtmpdump --with-x265 --with-webp --with-tools --with-faac --with-fdk-aac --with-rtmpdump --with-x265 --with-webp --with-tools
 brew findutils
@@ -76,7 +61,6 @@ brew fontconfig
 brew fontforge
 brew freetype
 brew freexl
-brew gauche
 brew gcc
 brew gdal
 brew gdb
@@ -120,7 +104,6 @@ brew jq
 brew json-c
 brew jvmtop
 brew lame
-brew leiningen
 brew libarchive
 brew libcroco
 brew libepoxy
@@ -177,7 +160,6 @@ brew pandoc
 brew pango
 brew pcre
 brew pdf2htmlex
-brew peco
 brew perl-build
 brew phantomjs
 brew pixman
@@ -202,7 +184,6 @@ brew reattach-to-user-namespace --with-wrap-launchctl --with-wrap-pbcopy-and-pbp
 brew redis
 brew rmtrash
 brew rocksdb
-brew roswell
 brew rtmpdump
 brew ruby-build
 brew sbt
@@ -256,7 +237,6 @@ tap minodisk/qiitactl
 brew qiitactl
 
 tap motemen/motemen
-brew lgtm.sh
 
 tap neovim/neovim
 brew neovim
