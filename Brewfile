@@ -26,7 +26,6 @@ cask mactex
 cask screencast
 cask sequel-pro
 cask slack
-cask techstoreclub-simple-comic
 cask the-unarchiver
 cask timemachineeditor
 cask transmission
@@ -64,6 +63,7 @@ brew docbook
 brew dpkg
 brew elasticsearch
 brew elixir
+brew elm-format --HEAD
 brew embulk
 brew erlang
 brew exiftool
@@ -189,6 +189,7 @@ brew postgresql
 brew proj
 brew protobuf
 brew pstree
+brew pup
 brew pwgen
 brew pyenv
 brew python
@@ -197,7 +198,7 @@ brew qt5
 brew rbenv --HEAD
 brew rbenv-gemset
 brew readline
-brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
+brew reattach-to-user-namespace --with-wrap-launchctl --with-wrap-pbcopy-and-pbpaste
 brew redis
 brew rmtrash
 brew rocksdb
@@ -231,6 +232,7 @@ brew x265
 brew xvid
 brew xz
 brew yasm
+brew youtube-dl
 brew z
 brew zeromq
 brew zplug
@@ -238,7 +240,6 @@ brew zsh
 brew zsh-completions
 
 tap homebrew/devel-only
-brew elm-format --HEAD
 
 tap homebrew/dupes
 brew grep --with-default-names
@@ -253,6 +254,9 @@ tap homebrew/versions
 
 tap minodisk/qiitactl
 brew qiitactl
+
+tap motemen/motemen
+brew lgtm.sh
 
 tap neovim/neovim
 brew neovim
@@ -281,6 +285,7 @@ brew d-bus
 brew jless
 
 # Cask applications
+cask techstoreclub-simple-comic
 cask dockertoolbox
 
 # App Store applications
